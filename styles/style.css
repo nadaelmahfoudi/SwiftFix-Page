@@ -1,0 +1,421 @@
+.navBar_bottom{
+    font-family: 'Poppins',sans-serif;
+}
+.logo{
+    width: 20%;
+           float: left;
+           padding-right: 7%;
+           padding-left: 15%;
+           padding-top: 2%;
+}
+.navBar_bottom{
+    padding-top: 2%;
+}
+.navBar_bottom li a {
+    text-decoration: none;color: black;
+}
+.navBar_bottom #first{
+    display: inline-block;margin-right: 5%;
+    
+}
+.navBar_bottom #second{
+    display: inline-block;margin-right: 5%;
+}
+.navBar_bottom #third{
+    display: inline-block;margin-right: 5%;
+}
+.navBar_bottom #fourth{
+    display: inline-block;margin-right: 5%;
+}
+.container{
+    padding-right: 20rem;
+    padding-left: 10rem;
+}
+.container .container_left{
+    width: 39%;
+      float: left;
+      margin-left: 3%;
+      padding-top: 40px;
+}
+.container .container_left h1{
+    font-size: 46px;color: rgba(9, 75, 114, 1);
+}
+.container .container_left p{
+    margin-top: 4%;
+       font-family: Plus Jakarta sans-serif , sans-serif;
+       color: rgba(139, 140, 140, 1);
+       font-size: 16px;
+}
+.container .container_left button{
+        margin-top: 5%;
+        background-color: rgba(9, 75, 114, 1);
+        color: white;
+        padding: 20px 25px;
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+        padding-bottom: 5%;
+}
+.container .container_left p{
+    margin-top: 9%;font-family: Plus Jakarta sans-serif , sans-serif; color: rgba(139, 140, 140, 1);
+}
+.container .container_left img{
+    margin-top: 20px;
+        width: 65%;
+}
+.container .container_right{
+    width: 51%;
+      position: relative;
+      padding-left: 65%;
+}
+.container .container_right .first_img{
+    position: absolute; 
+}
+.container .container_right .first_img img{
+    width: 121%;
+}
+.container .container_right .second_img{
+    position: absolute; 
+}
+.container .container_right .second_img img{
+    position: absolute;
+         top: 100px;
+         left: 114px;
+         width: 274px;
+}
+.container .container_right .charte{
+    position: absolute;
+       background-color: white;
+       width: 176px;
+       margin-top: 33rem;
+       border: none;
+       border-radius: 6px;
+       box-shadow: 0px 19px 14px 0px #0000001c;
+       left: 40rem;
+}
+.container .container_right .charte h3{
+    font-family: Plus Jakarta Sans, Bold;
+        font-size: 10px;
+        padding-left: 3px;
+        color: rgba(51, 71, 91, 1);
+}
+.container .container_right .charte p{
+    color: rgba(135, 137, 140, 1);
+        font-family: Plus Jakarta Sans, Medium;
+        font-size: 8px;
+        padding-left: 8px;
+}
+.service_section{
+    margin-top: 36rem;
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(242, 247, 255, 1);
+    padding-bottom: 12rem;
+}
+.service_section .right{
+    display: flex;
+        flex-direction: column;
+        margin-bottom: 6rem;
+}
+.service_section .right h2{
+    margin-left: 1rem;
+         font-size: 2rem;
+         margin-right: 50rem;
+         margin-top: 12rem;
+         padding-left: 11rem;
+}
+.service_section .right p{
+font-family: Poppins, regular,sans-serif;
+         font-size: 16px;
+         margin-right: 45rem;
+         margin-left: 12rem;
+         color: rgba(151, 151, 151, 1);
+}
+.service_section .left{
+    display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        margin-left: -629px;
+        margin-top: 8rem;
+}
+.service_section .left .maintenance{
+    width: 237px;
+         padding-left: 3rem;
+         background-color: white;
+         margin-right: 3rem;
+         box-shadow: 0px 1px 20px 0px #0000001a;
+         border-radius: 5px;
+         padding-top: 2rem;
+         padding-bottom: 1rem;
+}
+.service_section .left .facility{
+    width: 237px;
+         padding-left: 3rem;
+         background-color: white;
+         margin-right: 3rem;
+         box-shadow: 0px 1px 20px 0px #00000014;
+         border-radius: 5px;
+         padding-top: 2rem;
+         padding-bottom: 1rem;
+}
+.service_section .left .rocket{
+    width: 234px;
+    padding-left: 3rem;
+    padding-right: 12px;
+    background-color: white;
+    margin-right: 3rem;
+    box-shadow: 0px 1px 20px 0px #0000001a;
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-top: 27px;
+}
+.service_section .left .user_arrows{
+    width: 231px;
+    padding-left: 39px;
+    padding-right: 5px;
+    background-color: white;
+    box-shadow: 0px 1px 20px 0px #0000001a;
+    border-radius: 5px;
+    padding-top: 30px;
+    margin-top: 27px;
+}
+.achievement{
+    color: white;
+       background-image: url(Achievement\ \(2\).svg);
+       padding-top: 30px;
+       padding-bottom: 21px;
+       font-family: Poppins, ExtraBold, serif;
+}
+.achievement .first{
+    margin-left: 472px;
+}
+.achievement .first h2{
+    font-size: 40px;
+    font-family: Playfair Display,Black;
+    margin-left: -39px;
+    
+}
+.achievement p{
+    margin-left: -23px;
+}
+.achievement .second hr{
+    height: 90px;
+}
+.achievement .second{
+    display: flex;
+        justify-content: space-evenly;
+        padding: 51px;
+}
+.achievement .second .firstcolumn{
+    padding-left: 248px;
+    text-align: center;
+}
+.achievement .second .secondcolumn{
+    text-align: center;
+}
+.achievement .second .thirdcolumn{
+padding-right: 224px;
+text-align: center;
+}
+.client_testimonial{
+    margin-top: -21px;
+    background-color: rgba(242, 247, 255, 1);
+    padding-top: 33px; padding-bottom: 7%;padding-right: 33px;
+    padding-left: 88px;
+}
+.client_testimonial h2{
+    text-align: center;
+        font-size: 40px;
+}
+.client_testimonial .all{
+    display: flex;
+      justify-content: space-around;
+}
+.client_testimonial .all .firstTestimonial1{
+    width: 38%;
+}
+.client_testimonial .all .firstTestimonial1 .stestimonial .firstopinion {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+    box-shadow: 3px 3px 20px 0px#00000026;
+    border-radius: 10px;
+    
+}
+.stestimonial .firstopinion  h4{
+    font-family: Poppins,Medium;
+                    font-size: 12px;
+    
+}
+.stestimonial .firstopinion p{
+    font-family: Poppins,Regular;
+                    font-size: 12px;
+    color: rgba(79, 79, 79, 1);
+}
+.firsttriangle{
+    clip-path: polygon(100% 0, 0 0, 50% 32%);
+                height: 34px;
+               margin: 0 auto;
+               background-color: white;
+               width: 26px;
+}
+.client_identity{
+    width: 50%;
+                margin: 17px auto;
+}
+.client_identity img{
+    width: 55px;
+                    height: 55px;
+                    float: left;
+}
+.client_identity strong{
+    margin-left: 64px;
+                    font-family: Poppins,medium;
+                    display: block;
+}
+.client_identity span{
+    margin-left: 10px;
+                    font-family: Poppins, Regular, sans-serif;
+                    color: rgba(79, 79, 79, 1);
+                    font-size: small;
+}
+.stestimonial .first_client{
+    width: 50%;
+                margin: 17px auto;
+}
+.first_client img{
+    width: 55px;
+                    height: 55px;
+                    float: left;
+}
+.first_client strong{
+    margin-left: 64px;
+                    font-family: Poppins,medium;
+                    display: block;
+}
+.first_client span{
+    margin-left: 10px;
+                    font-family: Poppins, Regular, sans-serif;
+                    color: rgba(79, 79, 79, 1);
+                    font-size: small;
+}
+.secondTestimonial{
+    width: 38%;
+}
+.secondTestimonial .ndtestimonial .secondopinion{
+    background-color: white;
+                text-align: center;
+                padding: 15px;
+                box-shadow: 3px 3px 20px 0px #00000026;
+                border-radius: 10px;
+}
+.ndtestimonial .secondopinion h4{
+    font-family: Poppins,Medium;
+                    font-size: 12px;
+}
+.ndtestimonial .secondopinion p{
+font-family: Poppins,Regular;
+                    font-size: 12px;
+    color: rgba(79, 79, 79, 1);
+}
+.secondtriangle{
+    clip-path: polygon(100% 0, 0 0, 50% 32%);
+                     height: 34px;
+                    margin: 0 auto;
+                    background-color: white;
+                    width: 26px;
+}
+.ndtestimonial .client_identity2{
+    width: 51%;
+    margin: 21px auto;
+    font-family: Poppins, Regular;
+}
+.client_identity2 img{
+    width: 55px;
+                    height: 55px;
+                    float: left;
+}
+.client_identity2 strong{
+    margin-left: 64px;
+                    font-family: Poppins,medium;
+                    display: block;
+}
+.client_identity2 span{
+    margin-left: 18px;
+                    font-family: Poppins, Regular, sans-serif;
+                    color: rgba(79, 79, 79, 1);
+                    font-size: small;
+}
+.questioning_section{
+    margin: 48px 145px;
+}
+.questioning_section h3{
+    font-size: 35px;
+        font-family: Playfair Display,Bold,sans-serif;
+}
+.questioning_section p{
+    font-family: Poppins , Regular, sans-serif;
+        color: rgba(79, 79, 79, 1);
+        font-size: 17px;
+        width: 554px;
+}
+.questioning_section button{
+    margin-top: 5%;
+    background-color: rgba(9, 75, 114, 1);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 20px 55px;
+    font-family: Poppins,Regular, sans-serif;
+}
+.footer_section .firstPart{
+    background-color: rgba(9, 75, 114, 1);padding-bottom: 48px;
+}
+.footer_section .firstPart .logo img{
+    width: 60%;
+                float: left;
+                margin-top: 64px;
+                
+}
+.firstPart .lists{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-left: 94px;
+    padding-right: 85px;
+    color: white;
+    font-family: Inter, Regular;
+    font-size: 15px;
+    padding-top: 105px;
+    font-family: Inter, Regular, sans-serif;
+    line-height: 30px;
+}
+.footer_item{
+    list-style-type: none;
+}
+
+.footer_link a{
+    text-decoration: none;
+    color: white;
+}
+.footer_section .secondPart {
+    background-color: rgba(0, 77, 123, 1);
+           padding: 1px;
+}
+.secondPart {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-between;
+    
+}
+.secondPart .rights p{
+    padding-left: 153px;
+                    color: rgba(217, 219, 225, 1);
+                    font-size: 11px;
+                    font-family: Inter,Regular, sans-serif;
+}
+.secondPart .social_media{
+    padding-right: 165px;
+}
