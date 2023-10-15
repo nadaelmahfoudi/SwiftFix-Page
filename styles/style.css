@@ -1,12 +1,24 @@
+.header_section{
+    margin-bottom: 20px;
+}
+.list_ordre{
+    display: flex;
+    margin-top: 25px;
+}
+.list_ordre img{
+    margin-left: 98px;
+}
 .navBar_bottom{
     font-family: 'Poppins',sans-serif;
+    display: flex;
+    margin-left: 133px;
 }
 .logo{
     width: 20%;
-           float: left;
-           padding-right: 7%;
-           padding-left: 15%;
-           padding-top: 2%;
+    float: left;
+    padding-right: 7%;
+    padding-left: 15%;
+    padding-top: 10px;
 }
 .navBar_bottom{
     padding-top: 2%;
@@ -46,19 +58,21 @@
        color: rgba(139, 140, 140, 1);
        font-size: 16px;
 }
-.container .container_left button{
-        margin-top: 5%;
-        background-color: rgba(9, 75, 114, 1);
-        color: white;
-        padding: 20px 25px;
-        border: none;
-        border-radius: 15px;
-        cursor: pointer;
-        padding-bottom: 5%;
-}
+
 .container .container_left p{
     margin-top: 9%;font-family: Plus Jakarta sans-serif , sans-serif; color: rgba(139, 140, 140, 1);
 }
+.container .container_left button{
+    margin-top: 5%;
+    background-color: rgba(9, 75, 114, 1);
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding: 20px 55px;
+    font-family: Poppins,Regular, sans-serif;
+}
+
 .container .container_left img{
     margin-top: 20px;
         width: 65%;
@@ -85,25 +99,26 @@
 }
 .container .container_right .charte{
     position: absolute;
-       background-color: white;
-       width: 176px;
-       margin-top: 33rem;
-       border: none;
-       border-radius: 6px;
-       box-shadow: 0px 19px 14px 0px #0000001c;
-       left: 40rem;
+    background-color: white;
+    width: 176px;
+    margin-top: 33rem;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 19px 14px 0px #0000001c;
+    margin-left: 10rem;
 }
-.container .container_right .charte h3{
+.container .container_right .charte strong{
     font-family: Plus Jakarta Sans, Bold;
-        font-size: 10px;
+        font-size: 15px;
         padding-left: 3px;
         color: rgba(51, 71, 91, 1);
+        margin-left: 15px;
 }
 .container .container_right .charte p{
     color: rgba(135, 137, 140, 1);
-        font-family: Plus Jakarta Sans, Medium;
-        font-size: 8px;
-        padding-left: 8px;
+    font-family: Plus Jakarta Sans, Medium;
+    font-size: 9px;
+    padding-left: 50px;
 }
 .service_section{
     margin-top: 36rem;
@@ -182,7 +197,7 @@ font-family: Poppins, regular,sans-serif;
 }
 .achievement{
     color: white;
-       background-image: url(Achievement\ \(2\).svg);
+       background-image: url(/images/Achievement\ \(2\).svg);
        padding-top: 30px;
        padding-bottom: 21px;
        font-family: Poppins, ExtraBold, serif;
@@ -394,6 +409,7 @@ font-family: Poppins,Regular;
 }
 .footer_item{
     list-style-type: none;
+    margin-left: -38px;
 }
 
 .footer_link a{
@@ -418,4 +434,167 @@ font-family: Poppins,Regular;
 }
 .secondPart .social_media{
     padding-right: 165px;
+}
+.about_us{
+    display: flex;
+}
+.about_us .premiere_partie{
+    padding-left: 185px;
+    padding-top: 82px;
+    padding-right: 36px;
+}
+.premiere_partie h2{
+    font-size: 32px;
+}
+.premiere_partie p{
+    font-size: 18px;
+    color: rgba(79, 79, 79, 1);
+}
+.about_us button{
+    margin-top: 5%;
+    background-color: rgba(9, 75, 114, 1);
+    color: white;
+    padding: 13px 50px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    padding-bottom: 5%;
+}
+.about_us .dexiemme_partie{
+    padding-right: 121px;
+    padding-top: 73px;
+    padding-bottom: 50px;
+}
+.dexiemme_partie img{
+    width: 530px;
+}
+.service{
+    display: flex;
+    padding-top: 70px;
+    background-color: rgba(242, 247, 255, 1);
+    margin-top: 61px;
+}
+.service .premier_service img{
+    width: 485px;
+    padding-left: 82px;
+}
+.service .dexieme_service{
+    padding-right: 130px;
+    padding-top: 89px;
+}
+.service .dexieme_service h2{
+    font-size: 34px;
+}
+.service .dexieme_service p{
+    font-size: 20px;
+    color: rgba(79, 79, 79, 1);
+}
+.service .dexieme_service button{
+    margin-top: 5%;
+    background-color: rgba(9, 75, 114, 1);
+    color: white;
+    padding: 17px 38px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.services_section{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(242, 247, 255, 1);
+    padding-bottom: 6rem;
+}
+.services_section .partleft{
+    padding-left: 129px;
+    padding-top: 54px;
+    margin-right: 100px;
+}
+.services_section .partleft h2{
+    font-size: 30px;
+    font-family: Playfair Display , Bold;
+}
+.services_section .partleft p{
+    color: rgba(151, 151, 151, 1);
+    font-family: Poppins, Regular, sans-serif;
+}
+.services_section .partright .top{
+    display: flex;
+    margin-right: 101px;
+}
+.top .maintenance{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-right: 39px;
+    padding-top: 16px;
+    padding-bottom: 23px;
+    border-radius: 17px;
+    box-shadow: 1px 1px 20px 0px #0000001f;
+}
+.top .facility{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-right: 39px;
+    padding-top: 16px;
+    padding-bottom: 23px;
+    border-radius: 17px;
+    box-shadow: 1px 1px 20px 0px #0000001f;
+}
+.services_section .partright .bottom{
+    display: flex;
+    margin-right: 101px;
+    margin-top: 32px;
+}
+.bottom .rocket{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-right: 39px;
+    padding-top: 16px;
+    padding-bottom: 23px;
+    border-radius: 17px;
+    box-shadow: 1px 1px 20px 0px #0000001f;
+}
+.bottom .user_arrows{
+    background-color: white;
+    padding-left: 30px;
+    padding-right: 10px;
+    margin-right: 39px;
+    padding-top: 16px;
+    padding-bottom: 23px;
+    border-radius: 17px;
+    box-shadow: 1px 1px 20px 0px #0000001f;
+}
+.contact_section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 195px;
+    padding-top: 52px;
+    padding-bottom: 88px;
+}
+.contact_section h2{
+    font-family: Inter, Bold,sans-serif;
+    font-size: 31px;
+}
+.contact_section input{
+    padding-right: 745px;
+    padding-bottom: 17px;
+    padding-top: 18px;
+    margin-bottom: 30px;
+    background-color: rgba(217, 217, 217, 1);
+    border: none;
+}
+.contact_section button{
+    background-color: rgba(9, 75, 114, 1);
+    color:white;
+    padding: 14px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-right: 933px;  
+}
+.contact_section .message_case input{
+    padding-bottom: 41px;
+    padding-top: 33px;
 }
