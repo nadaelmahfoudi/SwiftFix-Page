@@ -215,7 +215,7 @@ font-family: Poppins, regular,sans-serif;
 }
 .achievement{
     color: white;
-       background-image: url(/images/Achievement\ \(2\).svg);
+       background-image: url(../images/achievement1.svg);
        padding-top: 30px;
        padding-bottom: 21px;
        font-family: Poppins, ExtraBold, serif;
